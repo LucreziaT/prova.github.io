@@ -2,96 +2,79 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Lucrezia Tosato
     - name: Languages
-      value: English, German
+      value: Italian, English, Basics of Spanish, French in progress
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Université Paris Cité, Paris, France
+      year: 2025 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Image processing
+        - Multi-scale Fusion for Remote Sensing  Visual Question Answering
+    - title: MSc Computer Science 
+      institution: Sorbonne Université, Paris, France
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Image processing and Machine Learning
+    - title: MSc Information and Communication Engineering 
+      institution: University of Trento, Trento, Italy
+      year: 2020-2021
+      description:
+        - Image processing and Machine Learning
+    - title: BSc. Information and Communication Engineering
+      institution: University of Trento, Trento, Italy
+      year: 2017-2020
+      description:
+        - Telecommunication 
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching assistant
+      institution: Université Paris Cité, Paris, France
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Programming in C++ and Python
+        - Data Science 
+    - title: Research intern
+      institution: LIP6 and ISIR, Paris, France
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Analysis of group interaction and their evolution over time with the aim of studying the F-formations and predicting the future speaker
+    - title: Data Scientist
+      institution: Gradient0, Vienna, Austria
+      year: 2021
       description:
+        - Use satellite images to classify the quality and quantity of grasslands in Australia
+    - title: Tutor
+      institution: University of Trento, Trento, Italy
+      year: 2020-2022
+      description:
+        - Calculus 1 at Information Engineering and Computer Science
+        - Matematics at Economics and Management
+    - title: Research intern
+      institution: RSLab, Trento, Italy
+      year: 2019-2020
+      description:
+        - Find a way to identify snow grain typology by means of satellite Sentinel-2
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: E-Agle Trento Racing Team
+      year: 2018-2020
+      description: Build an electric car every year, always better, more efficient, safer and then put it in competition with other cars built by other teams from all around the world
+    - title: Samsung Innovation Camp
+      year: 2019-2020
+      description: Design innovative solutions to problems proposed by Samsung, taking the technical and business aspects into account
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029-2021
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Python, C++, matlab
+    - AI librairies -  pytorch, scikit-learn , ...
